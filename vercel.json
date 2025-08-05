@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "public": true,
+  "routes": [
+    {
+      "src": "/songs/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "continue": true
+    }
+  ]
+}
+    
